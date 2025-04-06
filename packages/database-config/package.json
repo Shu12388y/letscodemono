@@ -1,0 +1,23 @@
+{
+  "name": "@repo/database-config",
+  "version": "1.0.0",
+  "description": "Database config",
+  "private":"true",
+  "exports":{
+    "./db-config":"./src/*.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc -b"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "mongoose": "^8.13.2"
+  }
+}
