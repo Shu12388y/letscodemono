@@ -4,7 +4,8 @@
   "description": "Database config",
   "private":"true",
   "exports":{
-    "./db-config":"./src/*.ts"
+    "./db-config":"./src/index.ts",
+    "./db-config/schema":"./src/*.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +17,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "dependencies": {
     "mongoose": "^8.13.2"
   }
